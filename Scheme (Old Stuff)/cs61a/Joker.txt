@@ -1,0 +1,116 @@
+;;Jeffrey Yeh
+;;CS61A-BM
+;;Section 13 (TuTh 12:30-2:00)
+
+
+;;Project 1 - Twenty-One
+
+;;JOKER.SCM
+
+;;the code below is modified for problem 10 of the project: joker.
+;;The two JOKERs will be represented as a pair of question marks '?? 
+
+(define (twenty-one strategy)
+  (define (play-dealer customer-hand dealer-hand-so-far rest-of-deck)
+    (cond ((> (best-total dealer-hand-so-far) 21) 1)
+	  ((< (best-total dealer-hand-so-far) 17)
+	   (play-dealer customer-hand
+			(se dealer-hand-so-far (first rest-of-deck))
+			(bf rest-of-deck)))
+	  ((< (best-total customer-hand) (best-total dealer-hand-so-far)) -1)
+	  ((= (best-total customer-hand) (best-total dealer-hand-so-far)) 0)
+	  (else 1)))
+
+  (define (play-customer customer-hand-so-far dealer-up-card rest-of-deck)
+    (cond ((> (best-total customer-hand-so-far) 21) -1)
+	  ((strategy customer-hand-so-far dealer-up-card)
+	   (play-customer (se customer-hand-so-far (first rest-of-deck))
+			  dealer-up-card
+			  (bf rest-of-deck)))
+	  (else
+	   (play-dealer customer-hand-so-far
+			(se dealer-up-card (first rest-of-deck))
+			(bf rest-of-deck)))))
+
+  (let ((deck (make-deck)))
+    (play-customer (se (first deck) (first (bf deck)))
+		   (first (bf (bf deck)))
+		   (bf (bf (bf deck))))) )
+
+(define (make-ordered-deck)
+  (define (make-suit s)
+    (every (lambda (rank) (word rank s)) '(A 2 3 4 5 6 7 8 9 10 J Q K)) )
+  (se (make-suit 'H) (make-suit 'S) (make-suit 'D) (make-suit 'C) '(?? ??)) ) ;this should add two jokers to the deck
+
+(define (make-deck)
+  (define (shuffle deck size)
+    (define (move-card in out which)
+      (if (= which 0)
+	  (se (first in) (shuffle (se (bf in) out) (- size 1)))
+	  (move-card (bf in) (se (first in) out) (- which 1)) ))
+    (if (= size 0)
+	deck
+    	(move-card deck '() (random size)) ))
+  (shuffle (make-ordered-deck) 54) ) ;the only necessary change here is changing the 52 to a 54 because there are now +2 cards in the deck.
+
+(define (best-total hand) 
+  (final-value hand (accumulate + 0 (every show-value hand)))) 
+(define (show-value card) 
+  (cond ((equal? (first card) 'a) 11)
+	((equal? (first card) 'k) 10)
+	((equal? (first card) 'q) 10)
+	((equal? (first card) 'j) 10)
+	((equal? (first card) 1) 10)
+	((equal? (first card) '?) 1)
+	((number? (first card)) (first card))
+	(else 'error?))) 
+(define (final-value hand value) ;most modified helper procedure to incorporate joker
+  (cond ((empty? hand) value)
+	((> 22 value) value) ;if your hand's value is normally less than 22 (1-21) then it will just display the value.
+	((and (equal? (first hand) '??) (> value 20) (< value 32)) 21) ;to work with the joker's value comforming
+	((and (member? '?? hand) (> value 21) (equal? 'a (first (first hand))) (< (- value 10) 21)) 21) ;for the case where an A shows up with a joker
+        ((and (not (empty? hand)) (> value 21) (equal? 'a (first (first hand)))) (final-value (bf hand) (- value 10))) ;if over 21 and your first card is an  ace, it will decrease the value by 10 (11 --> 1).
+	((and (not (empty? hand)) (> value 21) (not (equal? 'a (first (first hand))))) (final-value (bf hand) value)) ;if over 21 and first card is not an ace, then it will recurse and check to see if the next card is an ace.
+	(else value))) ;in this case, your hand is over 21 and you have no aces to reduce your hand's value. you lose.
+
+
+
+;below are the strategies. They should work with the added jokers, although they may be impractable since they are unable to consider the joker's conforming value. stop-at-17, for instance, would stop with a hand of '(?? 7) even though another card guarentees a win.
+(define (stop-at-17 customer-hand-so-far dealer-up-card)
+  (< (best-total customer-hand-so-far) 17)) 
+
+(define (play-n strategy n)
+  (cond ((< n 1) 'error) 
+	((= n 1) (twenty-one strategy))
+	(else (+ (twenty-one strategy) (play-n strategy (- n 1)))))) 
+
+(define (dealer-sensitive customer-hand-so-far dealer-up-card)
+  (cond ((and (member? (first dealer-up-card) '(a 7 8 9 1 j q k)) (< (best-total customer-hand-so-far) 17)) #t)
+	((and (member? (first dealer-up-card) '(2 3 4 5 6)) (< (best-total customer-hand-so-far) 12)) #t)
+	(else #f)))
+
+(define (stop-at n)
+  (lambda (customer-hand-so-far dealer-up-card) (< (best-total customer-hand-so-far) n))) 
+
+(define (valentine customer-hand-so-far dealer-up-card)
+  (if (and (member? 'h (every last customer-hand-so-far)) (< (best-total customer-hand-so-far) 19))
+      #t
+      (stop-at-17 customer-hand-so-far dealer-up-card)))
+
+(define (suit-strategy suit no-suit-strat suit-strat)
+  (lambda (customer-hand-so-far dealer-up-card) (if (member? suit (every last customer-hand-so-far)) 
+						    (suit-strat customer-hand-so-far dealer-up-card) 
+						    (no-suit-strat customer-hand-so-far dealer-up-card)))) 
+
+(define (majority strat1 strat2 strat3)
+  (lambda (customer-hand-so-far dealer-up-card) (<= 2 
+						    (+ (check-strat strat1 customer-hand-so-far dealer-up-card)
+						       (check-strat strat2 customer-hand-so-far dealer-up-card)
+						       (check-strat strat3 customer-hand-so-far dealer-up-card))))) 
+(define (check-strat strat customer-hand-so-far dealer-up-card)
+  (if (strat customer-hand-so-far dealer-up-card)
+      1
+      0))
+
+(define (reckless strategy)
+  (lambda (customer-hand-so-far dealer-up-card) (strategy (butlast customer-hand-so-far) dealer-up-card))) 

@@ -1,0 +1,51 @@
+;Jeffrey Yeh - CS3l-hm - TuTh5-8PM
+;Blocks.Tests
+
+(clear-test-cases)
+
+;there is a sizeable number of procedures which i am unable to test because I have incorporated the element of "randomness" in them, which means test cases will not be consistent.
+
+;it doesn't seem possible to test execute, seeing as it makes a call towards handlecmds.
+
+;test cases for resolved-descr
+;just for your information, the resolved-descr program will return "error" whenever it hits a problem, like a command of "the red block" when there are multiple red blocks. this "error" is used in execute in order to handle-cmds without changing the environment.
+
+(add-test-case  'a-block '((1 red)) (resolved-descr '(a block) '(((1 red))) '(1 red)))
+(add-test-case 'it '((1 red)) (resolved-descr '(it) '(((1 red) (2 blue)) () ((3 green))) '(1 red)))
+(add-test-case 'missing-block '(error) (resolved-descr '(a red block) '(((1 yellow))) '(1 yellow)))
+(add-test-case 'a-color-block '((1 black)) (resolved-descr '(a black block) '(((1 black) (2 red) (3 green))) '(3 green)))
+(add-test-case 'the-color-block '((1 white)) (resolved-descr '(the white block) '(((3 black) (3 green) (4 red)) () () ((5 magenta) (1 white) (7 cyan))) '(7 cyan)))
+(add-test-case 'color-blocks '((1 red) (2 red)) (resolved-descr '(a red block) '(((1 red) (3 green)) ((2 red))) '(1 red)))
+
+;tests for analyzed
+(add-test-case 'no-it #f (analyzed '(put it on a red block) '(((1 red) (2 green))) '()))
+(add-test-case 'put-test '(put (1 red) (2 green)) (analyzed '(put the red block on a green block) '(((1 red) (3 blue) (4 yellow)) ((2 green))) '(1 red)))
+(add-test-case 'put-it '(put (1 red) (2 green)) (analyzed '(put the red block on a green block) '(((1 red) (3 blue) (4 yellow)) ((2 green))) '(2 green)))
+(add-test-case 'no-block-put '(put (1 green) error) (analyzed '(put it on the green block) '(((1 red))) '(1 green)))
+(add-test-case 'put-it-same-color '(put (1 red) (2 red)) (analyzed '(put it on a red block) '(((1 red)) ((3 blue) (4 green)) ((2 red))) '(1 red))))
+(add-test-case 'what-is-test1 '(on (1 red) (2 red)) (analyzed '(what is on a red block) '(((1 red)) ((2 red))) '(1 red)))
+(add-test-case 'what-is-test2 '(on (1 red)) (analyzed '(what is on the red block) '(((1 red))) '(1 red)))
+(add-test-case 'what-is-test3 '(under (1 red)) (analyzed '(what is under a red block) '(((1 red))) '(1 red)))
+(add-test-case 'add-test '(add (2 red)) (analyzed '(add a red block) '(((1 blue) (3 black) (4 whatever)) ((5 green))) '(5 green)))
+(add-test-case 'remove-test1 '(remove (1 red)) (analyzed '(remove the red block) '((( 2 green) (1 red))) '(2 green)))
+
+;tests for my test-able helpers 
+(add-test-case 'putter-test '(((3 green) (2 red) (1 yellow)) ()) (putter '(3 green) '(2 red) '(((2 red) (1 yellow)) ())))
+(add-test-case 'remover-test '(()) (remover '(((1 red) (2 black) (3 green))) '((1 red) (2 black) (3 green))))
+(add-test-case 'adder-test '(((3 black) (2 green) (1 red))) (adder '(((2 green) (1 red))) '(3 black)))
+(add-test-case 'non-random-block-generator '(1 red) (block-generator2 '(((2 black) (3 cyan) (4 magenta) (5 white))) 'red))
+(add-test-case 'number-generator 8 (number-generator '(((1 red) (2 red) (3 red) (4 red) (5 red) (6 black) (7 blue))) 1))
+(add-test-case 'deep-appearances 4 (deep-appearances 'red '(((1 red) (2 red)) () ((3 black) (4 green) (5 red)) ((8 red)))))
+(add-test-case 'almost-complete-reverse '(((1 red) (2 green)) ()) (almost-complete-reverse '(() ((2 green) (1 red)))))
+(add-test-case 'color?-test #t (color? 'white))
+(add-test-case 'block?-test #t (block? '(193284 green)))
+(add-test-case 'list-blocks-test '((1 red) (2 red)) (list-blocks 'red '(((1 red) (3 green) (2 red)))))
+(add-test-case 'list-all-blocks-test '((1 red) (3 green) (2 red) (4 black)) (list-all-blocks '(((1 red) (3 green) (2 red)) () ((4 black)))))
+(add-test-case 'remove-from-test '((2 red) (3 black)) (remove-from '(1 red) '((2 red) (1 red) (3 black))))
+
+;i was unable to test alot of my code due to the "random" aspect of the blocks being selected. also, as far as i know, i am also incapable of testing the "show" function and cannot test to see whether or not it "shows" an error message or block name and as such it seems that i am unable to test my "what is" program.
+
+;it may LOOK like tests are failing, but those are actually commands shown by a call to "show" within the code that i am testing so those are simple shown messages rather than the names of failed test-cases.
+
+;thank you for grading my project ^_^
+;hopefully I didn't do too badly...

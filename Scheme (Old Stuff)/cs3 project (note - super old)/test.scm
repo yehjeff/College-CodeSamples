@@ -1,0 +1,1 @@
+(((1 cyan)) ((2 red) (3 black) (4 blue) (5 green) (6 cyan) (7 magenta) (8 yellow) (9 white)) ((10 red) (11 green)) ((12 blue)) ((13 yellow) (14 yellow)) ((15 cyan) (16 black) (17 green)) () ((18 magenta) (19 magenta) (20 magenta) (21 magenta) (22 magenta) (23 magenta)))
