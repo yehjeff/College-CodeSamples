@@ -1,0 +1,536 @@
+Job -title {Render BisonOpening - 051113 1-133} -serialsubtasks 1 -subtasks {
+  Task -title {Render} -subtasks {
+    Task -title {Frame 1} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 1 -e 1 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 2} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 2 -e 2 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 3} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 3 -e 3 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 4} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 4 -e 4 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 5} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 5 -e 5 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 6} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 6 -e 6 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 7} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 7 -e 7 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 8} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 8 -e 8 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 9} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 9 -e 9 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 10} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 10 -e 10 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 11} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 11 -e 11 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 12} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 12 -e 12 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 13} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 13 -e 13 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 14} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 14 -e 14 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 15} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 15 -e 15 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 16} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 16 -e 16 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 17} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 17 -e 17 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 18} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 18 -e 18 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 19} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 19 -e 19 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 20} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 20 -e 20 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 21} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 21 -e 21 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 22} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 22 -e 22 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 23} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 23 -e 23 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 24} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 24 -e 24 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 25} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 25 -e 25 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 26} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 26 -e 26 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 27} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 27 -e 27 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 28} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 28 -e 28 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 29} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 29 -e 29 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 30} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 30 -e 30 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 31} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 31 -e 31 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 32} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 32 -e 32 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 33} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 33 -e 33 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 34} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 34 -e 34 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 35} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 35 -e 35 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 36} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 36 -e 36 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 37} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 37 -e 37 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 38} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 38 -e 38 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 39} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 39 -e 39 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 40} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 40 -e 40 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 41} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 41 -e 41 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 42} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 42 -e 42 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 43} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 43 -e 43 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 44} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 44 -e 44 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 45} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 45 -e 45 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 46} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 46 -e 46 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 47} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 47 -e 47 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 48} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 48 -e 48 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 49} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 49 -e 49 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 50} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 50 -e 50 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 51} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 51 -e 51 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 52} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 52 -e 52 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 53} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 53 -e 53 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 54} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 54 -e 54 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 55} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 55 -e 55 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 56} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 56 -e 56 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 57} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 57 -e 57 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 58} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 58 -e 58 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 59} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 59 -e 59 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 60} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 60 -e 60 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 61} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 61 -e 61 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 62} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 62 -e 62 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 63} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 63 -e 63 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 64} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 64 -e 64 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 65} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 65 -e 65 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 66} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 66 -e 66 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 67} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 67 -e 67 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 68} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 68 -e 68 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 69} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 69 -e 69 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 70} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 70 -e 70 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 71} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 71 -e 71 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 72} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 72 -e 72 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 73} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 73 -e 73 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 74} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 74 -e 74 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 75} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 75 -e 75 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 76} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 76 -e 76 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 77} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 77 -e 77 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 78} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 78 -e 78 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 79} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 79 -e 79 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 80} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 80 -e 80 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 81} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 81 -e 81 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 82} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 82 -e 82 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 83} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 83 -e 83 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 84} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 84 -e 84 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 85} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 85 -e 85 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 86} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 86 -e 86 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 87} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 87 -e 87 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 88} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 88 -e 88 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 89} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 89 -e 89 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 90} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 90 -e 90 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 91} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 91 -e 91 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 92} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 92 -e 92 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 93} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 93 -e 93 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 94} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 94 -e 94 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 95} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 95 -e 95 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 96} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 96 -e 96 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 97} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 97 -e 97 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 98} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 98 -e 98 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 99} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 99 -e 99 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 100} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 100 -e 100 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 101} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 101 -e 101 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 102} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 102 -e 102 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 103} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 103 -e 103 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 104} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 104 -e 104 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 105} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 105 -e 105 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 106} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 106 -e 106 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 107} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 107 -e 107 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 108} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 108 -e 108 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 109} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 109 -e 109 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 110} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 110 -e 110 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 111} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 111 -e 111 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 112} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 112 -e 112 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 113} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 113 -e 113 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 114} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 114 -e 114 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 115} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 115 -e 115 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 116} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 116 -e 116 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 117} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 117 -e 117 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 118} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 118 -e 118 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 119} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 119 -e 119 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 120} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 120 -e 120 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 121} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 121 -e 121 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 122} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 122 -e 122 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 123} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 123 -e 123 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 124} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 124 -e 124 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 125} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 125 -e 125 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 126} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 126 -e 126 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 127} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 127 -e 127 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 128} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 128 -e 128 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 129} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 129 -e 129 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 130} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 130 -e 130 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 131} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 131 -e 131 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 132} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 132 -e 132 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+    Task -title {Frame 133} -serialsubtasks 1 -subtasks {
+      Task -title {Render} -cmds {
+        RemoteCmd -service {MacOSX} {/Applications/Autodesk/maya2013/Maya.app/Contents/bin/Render -r rman -pad 4 -cam camera_current:camera1 -proj /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower -im BisonOpening042813 -rd /Users/Shared/CNM_Farm/horsepower/renders/BisonOpening042813/ -fnc name.#.ext -s 133 -e 133 -of OpenEXR -rl OpeningLights -setAttr ShadingRate 1 -res 1920 1080 /Users/Shared/HorsePower-TractorFiles/RenderCurrent/CNM190-HorsePower/scenes/setDress/setBisonEnd/model-setBisonEnd-current.ma}      }
+    }
+  }
+}
