@@ -1,0 +1,20 @@
+Names:		Jeffrey Yeh		WenYu Tang
+Logins:		cs184-do		cs184-dn
+Assignment: Final Project - Phase 3 - Intermediate Progress Report
+Technical Challenges
+1. Animate a multi-legged creature such that it does not slip on the surface it is walking on.
+What we’ve done for this challenge:
+-Create Custom Model (Picture1) and embed it with a skeleton using Pinocchio (Picture2).
+-We wrote code to “lock” and “unlock” joints such that we can limit IK’s tendency to freakishly distort the model.
+-We wrote a function that allows us to move the root to a new position, which also works with AS9’s interpolating animation system such that we can create the animation of our custom model actually moving some distance, walking without slipping. 
+***This is nearly complete, though is still buggy because IK is not too consistent even when we tell joints to reach for the same position after moving the root*** (Animation1)
+2. We decided to have our creature walk along a b-spline. This would require us to have to integrate different frameworks as well as account for the rotations as it goes around the b-spline (both rotations based around the b-spline surface normals & ones around the b-spline itself).
+-Created a simple custom b-spline (torus) with texture and corresponding bump map by hand (Picture3).
+-For this, we integrated the frameworks for Assignment8 and Assignment9. This was tricky as for some reason Visual Studio was very unintuitive and difficult to work with.  We managed to do this successfully for the most part, although we still need to deal with some shading issue for our model when it is on the spline (we incorporated AS9 framework into AS8).
+-We figured out a way to create our own coordinate axis (u,v,w) that defines positions relative to the spline.  We used these to put our model on the Spline and walk along the spline while still accounting for the curves present on the spline for our animation, thus rotating and orienting itself. 
+***Problems with this challenge mostly involve incomplete issues from the first challenge and IK not doing what we expect it to. Also, we haven’t yet defined orientation and movements for  movement along our v-axis, but we’ll include an animation (3) to show that we have achieved the locations and animating it should be a simple deed*** (Animation2) (Animation3)
+3. Allow the user to control the movement of the multi-legged creature from a third person perspective. Implement six possible user commands: walk forward, walk backwards, side step right, side step left, rotate right, and rotate left.
+-For this last challenge, which would also be the simplest, we have only implemented the walk forwards.  This can be seen in Animation2, although walking backwards would just be a copy/paste/reverse implementation of this function.  
+-We have confirmed that we can in fact strafe left and right as seen in Animation3, though we have yet to create the IK animations for this step yet.
+-We also have not yet implemented a rotate right or left, though this shouldn’t be too difficult as our model is round/symmetrical in this aspect.
+
